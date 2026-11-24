@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // The secret token you will give to eBay.
-const VERIFICATION_TOKEN = "my-secret-token-123";
+const VERIFICATION_TOKEN = "this-is-my-secret-token-for-ebay-that-is-long-enough";
 
 // We will update this URL in a moment after Render gives it to us!
 const ENDPOINT_URL = "https://ebay-webhook-rwxq.onrender.com/webhook"; 
