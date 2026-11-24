@@ -8,7 +8,7 @@ app.use(express.json());
 const VERIFICATION_TOKEN = "my-secret-token-123";
 
 // We will update this URL in a moment after Render gives it to us!
-const ENDPOINT_URL = "https://CHANGE-ME.onrender.com/webhook"; 
+const ENDPOINT_URL = "https://ebay-webhook-rwxq.onrender.com/webhook"; 
 
 app.get('/webhook', (req, res) => {
     const challengeCode = req.query.challenge_code;
